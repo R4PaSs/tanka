@@ -118,7 +118,7 @@ func Evaluate(path, data string, opts Opts) (string, error) {
 	}
 
 	// Create VM
-	jpath, _, _, err := jpath.Resolve(path)
+	jpath, _, _, err := jpath.Resolve(path, false)
 	if err != nil {
 		return "", errors.Wrap(err, "resolving import paths")
 	}

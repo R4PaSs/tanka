@@ -10,7 +10,7 @@ require (
 	github.com/go-clix/cli v0.2.0
 	github.com/gobwas/glob v0.2.3
 	github.com/google/go-cmp v0.5.6
-	github.com/google/go-jsonnet v0.17.0
+	github.com/google/go-jsonnet v0.17.1-0.20210701111051-51daeb3229e4
 	github.com/google/uuid v1.1.2 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/karrick/godirwalk v1.16.1
